@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+<h1>Checkout</h1>
+<section>
+    <h2>Your Cart</h2>
+    <img src="https://i.pinimg.com/736x/ae/bd/a9/aebda985226ee237ebf1b1c96900698d.jpg" height="300" width="200" alt="PORSCHE CARS" title="Porsche 911">
+</section>
+<section>
+  <h2>Payment Information</h2>
+  <form>
+    <label for="card-name">
+      <span aria-hidden="true">*</span> Card Name:
+    </label>
+    <input type="text" id="card-name" name="card-name" required>
+
+    <label for="card-number">
+      <span aria-hidden="true">*</span> Card Number:
+    </label>
+    <input 
+      type="text" 
+      id="card-number" 
+      name="card-number" 
+      required 
+      aria-describedby="card-number-help"
+    >
+    
+    <p id="card-number-help">Please enter your 16-digit card number without spaces.</p>
+
+  </form>
+</section>
+</body>
+
+</html>
